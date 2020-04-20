@@ -1,0 +1,35 @@
+.flipped-side {
+    height: 470px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    border-bottom: #282e34 solid .7rem;
+    line-height: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    img {
+        width: 95%;
+        margin-left: -5rem;
+    }
+
+    .heading__primary {
+        font-size: 5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+ 
+    .heading__seconday {
+        font-size: 2.6rem;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,53 @@
+.animated-section {
+    height: 570px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    border-bottom: #282e34 solid .7rem;
+    border-left: #000;
+    border-right: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    .heading__primary {
+        font-size: 5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+ 
+    .heading__seconday {
+         font-size: 2.6rem;
+         font-weight: 400;
+    }
+
+    &__animated {
+        position: relative;
+        width: 570px;
+        height: 400px;
+
+        img {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            margin-left: 5rem;
+        }
+    }
+
+    &__video {
+        position: absolute;
+        top: 10%;
+        left: 28%;
+        width: 35rem;
+        height: 20rem;
+    }
+
+}
