@@ -1,0 +1,12 @@
+.footer-col {
+    &__list {
+        list-style-type: none;
+        font-size: 1.4rem;
+        line-height: 2.4;
+        font-weight: 600;
+    }
+
+    &__list:first-child {
+        margin-left: 10rem;
+    }
+}

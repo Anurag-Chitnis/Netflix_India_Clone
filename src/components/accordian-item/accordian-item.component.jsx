@@ -1,7 +1,7 @@
 import React from 'react';
 import './accordian-item.styles.scss';
 import Accordion from 'react-bootstrap/Accordion';
-import {Card, Body} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 
 const AccordianItem = ({id, title, content}) => (
     <Accordion key={id}>

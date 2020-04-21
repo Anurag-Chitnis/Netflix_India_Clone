@@ -3,7 +3,8 @@
     background: #000;
     padding: 5rem 0;
     color: #fff;
-
+    border-bottom: #282e34 solid .7rem;
+    
     .heading__primary {
         text-align: center;
         font-size: 5rem;
@@ -15,6 +16,7 @@
         font-size: 2rem;
         margin-top: 1rem;
         width: 100%;
+        text-align: center;
     }
 
     .input-group {

@@ -8,7 +8,7 @@ const FlippedSide = () => (
         <Container>
             <Row>
                 <Col>
-                    <img src={Background} alt="Mobile Image..."/>
+                    <img src={Background} alt="Mobile screen..."/>
                 </Col>
                 <Col>
                     <div className="flipped-side__content">

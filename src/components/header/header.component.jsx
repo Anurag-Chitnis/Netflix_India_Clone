@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button,Row,Col } from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 import './header.styles.scss';
 import Background from '../../assets/images/header_image.jpg';
 import InputGroup from '../input-group/input-group.component';

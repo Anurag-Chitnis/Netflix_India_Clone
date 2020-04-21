@@ -1,6 +1,6 @@
 import React from 'react';
 import './faq.styles.scss';
-import {Container, Card, Body} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import AccordianItem from '../accordian-item/accordian-item.component';
 import ACCORDIAN_DATA from './accordian-data';
 import InputGroup from '../input-group/input-group.component';

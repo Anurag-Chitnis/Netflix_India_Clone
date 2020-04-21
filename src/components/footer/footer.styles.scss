@@ -1,0 +1,13 @@
+.footer {
+    background: #000;
+    color: rgb(117, 117, 117);
+    padding: 10rem 0;
+    border-bottom: #282e34 solid .7rem;
+    &__wrapper {
+        margin: 0 auto;
+    }
+    .heading__tertiary {
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+}

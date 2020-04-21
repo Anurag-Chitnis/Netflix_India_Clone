@@ -16,7 +16,7 @@ const AnimatedSection = () => (
                 </Col>
                 <Col>
                     <div className="animated-section__animated">
-                        <img src={Background} alt="Mac laptop image"/>
+                        <img src={Background} alt="Mac laptop.."/>
                         <video 
                         src={VideoBackground}
                         loop
