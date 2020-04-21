@@ -14,7 +14,7 @@ class Footer extends React.Component {
         };
     }
 
-    componentDidMount() {
+    componentWillMount() {
         let {footerData} = this.state;
         const slicedFooter = this.chunkArray(footerData, 4);
         this.setState({slicedFooter})

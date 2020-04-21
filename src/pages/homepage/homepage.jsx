@@ -7,7 +7,7 @@ import AnimatedSection from '../../components/animated-section/animated-section.
 import FAQ from '../../components/FAQ/faq.component';
 import Footer from '../../components/footer/footer.component';
 
-const HomePage = () => (
+const HomePage = (props) => (
     <div className="app">
         <Header />
         <SideSection />

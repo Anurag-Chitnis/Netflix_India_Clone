@@ -9,11 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Pages Import 
 import HomePage from './pages/homepage/homepage';
+import SignIn from './pages/signIn/signIn.component';
 
 function App() {
   return (
     <Switch>
       <Route exact path="/" component={HomePage} />
+      <Route path="/signIn" component={SignIn} />
     </Switch>
   );
 }
