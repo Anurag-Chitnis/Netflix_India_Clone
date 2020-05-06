@@ -6,13 +6,6 @@ import { v4 as uuidv4 } from 'uuid';
 import {connect} from 'react-redux';
 
 const  Footer = ({footer_data}) => {
-    function chunkArray(myArray, chunk_size=4) {
-        let results = [];
-        while (myArray.length) {
-            results.push(myArray.splice(0, chunk_size));
-        }
-        return results;
-    }
     return(
         <div className="footer">
             <footer>
@@ -21,7 +14,7 @@ const  Footer = ({footer_data}) => {
                         <h3 className="heading__tertiary">Questions? Contact us.</h3>
                         <Row>
                             {
-                                chunkArray(footer_data).map(slice => (
+                                footer_data.map(slice => (
                                     <FooterItem footerSlice={slice} key={uuidv4()}/>
                                 ))
                             }
@@ -33,8 +26,8 @@ const  Footer = ({footer_data}) => {
     );
 }
 
-const mapStateToProps = ({footer: {FOOTER_DATA}}) => ({
-    footer_data: FOOTER_DATA
+const mapStateToProps = ({footer: {footer_data}}) => ({
+    footer_data
 })
 
 export default connect(mapStateToProps)(Footer);
