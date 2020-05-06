@@ -22,7 +22,7 @@ const NetflixForm = () => (
                             </div>
                             <div className="form__policy">
                                 <div className="form__facebook side-by-side">
-                                    <img src={FacebookLogo} alt=""/>
+                                    <img src={FacebookLogo} alt="facebook logo"/>
                                     <span className="info">Login With Facebook</span>
                                 </div>
                                 <div className="form__quest side-by-side">
@@ -30,7 +30,7 @@ const NetflixForm = () => (
                                     <span className="info info_large white-color">Sign Up Now</span>
                                 </div>
                                 <div className="policy__text">
-                                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more</a></p>
+                                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="/">Learn more</a></p>
                                 </div>
                             </div>
                         </form>
